@@ -54,47 +54,42 @@ export const About = () => {
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-x-1 transition-all my-2">
               <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
+                <ul>
                   <strong> BE computer Science & Engineering </strong> St. Michael College Of Engineering & Technology
                   (2022-2026)
-                  Relevant Coursework: Data Structures, Web Development, App Development,Computer networks...
+                </ul>
+                <li>
+                  CGPA - 7.9
+                </li>
               </ul>
             </div>
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-x-1 transition-all my-2">
               <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong> BE computer Science & Engineering </strong> St. Michael College Of Engineering & Technology
-                  (2022-2026)
+                  <strong> Higher Secondary Education </strong> Alangara matha hr sec school
+                  (2021-2022)
                 </li>
                 <li>
-                  Relevant Coursework: Data Structures, Web Development, App Development,Computer networks...
+                  Percentage - 77.33
                 </li>
               </ul>
             </div>
           </div>
             
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4"> 💼 Work Experience </h3>
+              <h3 className="text-xl font-bold mb-4">Experience</h3>
               <div className="space-y-4 text-gray-300">
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Software Engineer at ABC Corp (2020 - Present){" "}
+                    Internship at  DP WORLD (Feb - 2025){" "}
                   </h4>
                   <p>
-                    Developed and maintained microservices for cloud-based
-                    applications.
-                  </p>
-                </div>
-
-                <div>
-                  <h4 className="font-semibold">
-                    {" "}
-                    Intern at DEF Startups (2019){" "}
-                  </h4>
-                  <p>
-                    Assisted in building front-end components and integration
-                    REST APIs
+                    Gained practical exposure to data management and workflow optimization 
+                    in a large-scale logistics environment. Contributed to process automation to 
+                    enhance efficiency and accuracy, while developing an understanding of corporate 
+                    operations and professional workplace dynamics.
                   </p>
                 </div>
               </div>

@@ -61,12 +61,13 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
           <a href="#projects" className="flex items-center gap-2 text-gray-300 hover:text-white text-lg" onClick={() => setMenuOpen(false)}>
             <AiOutlineFundProjectionScreen /> Projects
           </a>
+          <a href="#resume" className="flex items-center gap-2 text-gray-300 hover:text-white text-lg" onClick={() => setMenuOpen(false)}>
+            <CgFileDocument /> Resume
+          </a>
           <a href="#contact" className="flex items-center gap-2 text-gray-300 hover:text-white text-lg" onClick={() => setMenuOpen(false)}>
             Contact
           </a>
-          <a href="/resume" className="flex items-center gap-2 text-gray-300 hover:text-white text-lg" onClick={() => setMenuOpen(false)}>
-            <CgFileDocument /> Resume
-          </a>
+
         </div>
       )}
     </nav>

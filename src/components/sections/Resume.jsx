@@ -36,7 +36,7 @@ export default function Resume() {
           href={pdf}
           target="_blank"
           rel="noreferrer"
-          className="flex items-center gap-2 px-6 py-2 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg shadow-md transition-all duration-300"
+          className="flex items-center gap-2 px-6 py-2 bg-red-600 hover:bg-red-700 text-white font-medium rounded-lg shadow-md transition-all duration-300"
         >
           <AiOutlineDownload className="text-xl" />
           Download CV
@@ -64,7 +64,7 @@ export default function Resume() {
           href={pdf}
           target="_blank"
           rel="noreferrer"
-          className="flex items-center gap-2 px-6 py-2 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg shadow-md transition-all duration-300"
+          className="flex items-center gap-2 px-6 py-2 bg-red-600 hover:bg-red-700 text-white font-medium rounded-lg shadow-md transition-all duration-300"
         >
           <AiOutlineDownload className="text-xl" />
           Download CV

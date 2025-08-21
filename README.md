@@ -1,100 +1,59 @@
-# Personal Portfolio
+# Portfolio Website  
 
-This repository contains a beautiful, responsive personal portfolio built using **React**, **Vite**, and **TailwindCSS**. The project showcases modern web development techniques including smooth animations, responsive layouts, and interactive UI components.
+A personal **portfolio website** built with **React.js (Vite)**, featuring a clean UI and smooth user experience. It showcases my work, skills, and resume while providing ways to connect with me.  
 
-### Want to watch this?
-[![Check this out](https://img.youtube.com/vi/LGdPMf-SgBA/maxresdefault.jpg)](https://youtu.be/LGdPMf-SgBA)
+## Table of Contents  
+- [About the Project](#about-the-project)  
+- [Features](#features)  
+- [Pages](#pages)  
+- [Technologies Used](#technologies-used)  
+- [Setup & Installation](#setup--installation)  
+- [What I Learned](#what-i-learned)  
+- [Acknowledgments](#acknowledgments)  
 
+## About the Project  
+This project is a **responsive portfolio website** created to showcase my development journey. It is designed with a modern and minimal UI for better readability and smooth navigation.  
 
-## Features
+## Features  
+- Clean and modern user interface  
+- Fully responsive across all devices  
+- Preloading animation for a smooth entry  
+- Interactive project showcase section  
+- Resume page for quick reference  
+- Contact form for easy communication  
 
-- **Modern Design:** Clean, SaaS-inspired design with a glass-effect navbar and sleek animations.
-- **Responsive Layout:** Fully responsive across desktop, tablet, and mobile devices.
-- **Interactive Components:** Animated sections and a mobile-friendly hamburger menu with smooth transitions.
-- **Optimized Performance:** Fast development build using Vite with TailwindCSS for efficient styling.
+## Pages  
+- **Home** – Landing page with introduction  
+- **Preloading** – Smooth animation before content loads  
+- **About** – Overview of skills and background  
+- **Projects** – Showcase of selected works  
+- **Resume** – Quick access to my resume  
+- **Contact** – Form to get in touch  
 
-## Technologies
+## Technologies Used  
+- **React.js (Vite)** – Front-end framework & bundler  
+- **CSS3 / Tailwind (or styled-components, if you used)** – Styling  
+- **JavaScript (ES6+)** – Functionality and interactivity  
+- **React Router** – Page navigation  
+- (Add any other libraries you used, e.g., Framer Motion, EmailJS, etc.)  
 
-- **React:** Component-based UI library.
-- **Vite:** Fast and lean development build tool.
-- **TailwindCSS:** Utility-first CSS framework.
-- **JavaScript (ES6+):** Modern JavaScript features and best practices.
-
-## Installation
-
-1. **Clone the repository:**
-
+## Setup & Installation  
+1. Clone the repository  
    ```bash
-   git clone https://github.com/your-username/your-portfolio.git
-   cd your-portfolio
-   ```
+   git clone https://github.com/your-username/portfolio.git
+   cd portfolio
 
-2. **Install dependencies:**
-
-   ```bash
+2. Install dependencies
    npm install
-   ```
 
-3. **Start the development server:**
-
-   ```bash
+3. Start the development server
    npm run dev
-   ```
 
-   The application should now be running at [http://localhost:5173](http://localhost:5173).
+Open the local development link (usually http://localhost:5173) in your browser.
 
-## Build
 
-To create a production build, run:
 
-```bash
-npm run build
-```
 
-Then, you can preview the production build with:
 
-```bash
-npm run preview
-```
 
-## Folder Structure
 
-```
-your-portfolio/
-├── public/
-│   └── index.html
-├── src/
-│   ├── components/
-│   │   ├── Navbar.jsx
-│   │   ├── MobileMenu.jsx
-│   │   ├── LoadingScreen.jsx
-│   │   └── sections/
-│   │       ├── Home.jsx
-│   │       ├── About.jsx
-│   │       ├── Projects.jsx
-│   │       └── Contact.jsx
-│   ├── index.css          # Tailwind base styles and global styles
-│   ├── App.jsx
-│   └── main.jsx
-├── package.json
-├── vite.config.js
-└── README.md
-```
-
-## Customization
-
-- **Tailwind CSS:** Modify the `index.css` file or add custom classes to further tweak the design.
-- **Components:** Edit individual components in the `src/components/` folder to update content or styling.
-- **Sections:** Update content in the `src/components/sections/` directory to showcase your personal projects, about info, and contact details.
-
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request with improvements.
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
-Happy coding and enjoy building your professional portfolio!
